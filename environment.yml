@@ -1,0 +1,35 @@
+name: py37
+channels:
+  - pyg
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.1.1=h6406543_8
+  - numpy=1.19.2=py37h54aff64_0
+  - numpy-base=1.19.2=py37hfa32c7d_0
+  - pandas=1.2.5=py37h219a48f_0
+  - pyg=2.0.1=py37_torch_1.8.0_cu111
+  - python=3.7.11=h12debd9_0
+  - pytorch=1.8.0=py3.7_cuda11.1_cudnn8.0.5_0
+  - pytorch-cluster=1.5.9=py37_torch_1.8.0_cu111
+  - pytorch-scatter=2.0.8=py37_torch_1.8.0_cu111
+  - pytorch-sparse=0.6.12=py37_torch_1.8.0_cu111
+  - pytorch-spline-conv=1.2.1=py37_torch_1.8.0_cu111
+  - scipy=1.5.3=py37h14a347d_0
+  - torchaudio=0.8.0=py37
+  - torchmetrics=0.8.2=pyhd8ed1ab_0
+  - torchvision=0.9.0=py37_cu111
+  - tqdm=4.62.3=pyhd8ed1ab_0
+  - pip:
+    - imbalanced-learn==0.9.0
+    - imblearn==0.0
+    - nvidia-ml-py==11.450.51
+    - nvitop==0.5.2.1
+    - protobuf==3.19.3
+    - psutil==5.9.0
+    - scikit-learn==1.0.2
+    - smart-open==5.2.1
+    - termcolor==1.1.0
+    - wget==3.2
+prefix: /home/sukwon/anaconda3/envs/py37
