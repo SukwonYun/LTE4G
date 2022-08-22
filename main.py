@@ -9,7 +9,9 @@ def main():
 
     if args.embedder == 'lte4g':
         from models.lte4g import lte4g
+        print(args.layer)
         embedder = lte4g(args)
+        
 
     else:
         if args.embedder == 'origin':

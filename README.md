@@ -29,11 +29,7 @@ the class and degree long-tailedness. After having trained an expert
 for each balanced subset, we adopt knowledge distillation to obtain
 two class-wise students, i.e., Head class student and Tail class stu-
 dent, each of which is responsible for classifying nodes in the head
-classes and tail classes, respectively. To determine whether each
-test node belongs to Head class or Tail class at the inference stage,
-we devise a class prototype-based inference that assigns each test
-node to either Head class or Tail class based on its similarity with
-class prototypes. We demonstrate that **LTE4G** outperforms a wide
+classes and tail classes, respectively. We demonstrate that **LTE4G** outperforms a wide
 range of state-of-the-art methods in node classification evaluated
 on both manual and natural imbalanced graphs. 
 
@@ -104,7 +100,7 @@ sh ./sh/best_cora_3_0.1.sh
 
 - or you can run the file with above mentioned hyperparameters
 ```
-python main.py --gpu 0 --dataset Cora --im_class_num 3 --im_ratio 0.1 --layer gcn --rec True --gamma 1 --alpha 0.9  --class_weight False
+python main.py --gpu 0 --dataset Cora --im_class_num 3 --im_ratio 0.1 --layer gat --rec True --gamma 1 --alpha 0.9 --class_weight False
 ```
 
 - Otherwise, to run baselines in paper, add `--baseline`
