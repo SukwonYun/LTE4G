@@ -7,7 +7,7 @@
         <img src="https://img.shields.io/badge/CIKM'22-brightgreen" /></a>
 </p>
 
-The official source code for **LTE4G: Long-Tail Experts for Graph Neural Networks** paper, accepted at CIKM 2022.
+The official source code for **[LTE4G: Long-Tail Experts for Graph Neural Networks](https://arxiv.org/abs/2208.10205)** paper, accepted at CIKM 2022.
 
 
 ### Overview
