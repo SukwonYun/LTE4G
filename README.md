@@ -88,3 +88,16 @@ python main.py --gpu 0 --dataset Cora --im_class_num 3 --im_ratio 0.1 --layer ga
 ```
 python main.py --baseline --embedder origin
 ```
+
+### Cite (Bibtex)
+- If you find ``LTE4G`` useful in your research, please cite the following paper:
+  - Sukwon Yun, Kibum Kim, Kanghoon Yoon, and Chanyoung Park. "LTE4G: Long-Tail Experts for Graph Neural Networks." CIKM 2022.
+  - Bibtex
+```
+@article{yun2022lte4g,
+  title={LTE4G: Long-Tail Experts for Graph Neural Networks},
+  author={Yun, Sukwon and Kim, Kibum and Yoon, Kanghoon and Park, Chanyoung},
+  journal={arXiv preprint arXiv:2208.10205},
+  year={2022}
+}
+```
